@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="adicionando metodos (ações) para interação">
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="melhorando o sistema de condições com o switch.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Cachorro.java" afterDir="false" />
@@ -81,13 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685123054195</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="melhorando o sistema de condições com o switch.">
+      <created>1685125530791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685125530791</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estudando java POO, com ada usando o intelliJ" />
     <MESSAGE value="adicionando uma classe e um objeto, criando um package e importando-o." />
     <MESSAGE value="adicionando metodos (ações) para interação" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionando metodos (ações) para interação" />
+    <MESSAGE value="melhorando o sistema de condições com o switch." />
+    <option name="LAST_COMMIT_MESSAGE" value="melhorando o sistema de condições com o switch." />
   </component>
 </project>
