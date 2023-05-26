@@ -1,13 +1,34 @@
 package animais;
 
 public class Cachorro {
-
+    //atributos
     private String nome;
     private String cor;
     private int altura;
     private double peso;
     private int tamanhoDoRabo;
+    //***********************
+    //CONSTRUTORES
 
+    //construtor padrao (default)
+    public Cachorro(){}
+
+    //construtor adicionado pelo generate intellij
+    public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
+        this.nome = nome;
+        this.cor = cor;
+        this.altura = altura;
+        this.peso = peso;
+        this.tamanhoDoRabo = tamanhoDoRabo;
+        this.estadoDeEspirito = estadoDeEspirito;
+    }
+
+
+    //***********************
+
+    //construtores ficam entre atributos e os metodos
+
+    //metodos
     private String estadoDeEspirito;
 
     public String getNome() {
@@ -65,7 +86,6 @@ public class Cachorro {
 //        this.nome = nome;}
 //
 //    } exemplo caso eu nao queira que o nome setado seja lily.
-
 
 
     public void comer() {
