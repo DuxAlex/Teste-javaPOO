@@ -1,22 +1,18 @@
 package animais;
 
-public class Cachorro {
+//classe filha da classe animal
+public class Cachorro extends Animal {
     //atributos
 
     static int numeroDeCachorros;
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
     private int tamanhoDoRabo;
-    //***********************
+
     //CONSTRUTORES
 
-    //construtor padrao (default)
-    public Cachorro(){}
 
     //construtor adicionado pelo generate intellij
     public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
+        super(nome, cor, peso);
         this.nome = nome;
         this.cor = cor;
         this.altura = altura;
@@ -42,8 +38,6 @@ public class Cachorro {
     public static void setNumeroDeCachorros(int numeroDeCachorros) {
         Cachorro.numeroDeCachorros = numeroDeCachorros;
     }
-
-    private String estadoDeEspirito;
 
     public String getNome() {
         return nome;
@@ -89,25 +83,6 @@ public class Cachorro {
         return estadoDeEspirito;
     }
 
-//    public void setEstadoDeEspirito(String estadoDeEspirito) {
-//        this.estadoDeEspirito = estadoDeEspirito;
-//    } caso eu nao queria que ninguem set o estadoDeEspirito é so exlcuir este set
-
-    //    public void setNome(String nome){
-//        if(nome.equals("lily")){
-//            this.nome = null;
-//        }else {
-//        this.nome = nome;}
-//
-//    } exemplo caso eu nao queira que o nome setado seja lily.
-
-
-    public void comer() {
-    }
-
-    public void soar() {
-        System.out.println("AU AU");
-    }
 
     public String pegar() {
         return "bolinha";
@@ -130,18 +105,6 @@ public class Cachorro {
                 this.estadoDeEspirito = "neutro";
                 break;
         }
-
-
-//        if (acao.equals("carinho")) {
-//            this.estadoDeEspirito = "feliz";
-//        } else if(acao.equals("vai dormir!")) {
-//            this.estadoDeEspirito = "raiva";
-//        } else if(acao.equals("pisar na pata")) {
-//            this.estadoDeEspirito = "triste";
-//        }else {
-//            this.estadoDeEspirito = "neutro";
-//        }
-//        return estadoDeEspirito;
         return this.estadoDeEspirito;
     }
 
@@ -150,5 +113,11 @@ public class Cachorro {
         return "Cachorro{" +
                 "nome='" + nome + '\'' +
                 '}';
+    }
+
+    //o Override sobrepoe a saida do metodo pai com a saida o seu propri metodo herdado pelo pai
+    @Override
+    public void soar() {
+        System.out.println("AU AU!");
     }
 }

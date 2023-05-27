@@ -1,28 +1,18 @@
 package animais;
 
-public class Passaro {
+// colocando heranca. agora passaro é uma classe filha de animais
+public class Passaro extends Animal {
 
     static int numeroDePassaros;
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
-    private String estadoDeEspirito;
 
-    //CONSTRUTORES
+    public Passaro(String nome, String cor, double peso) {
+        super(nome, cor, peso);
 
-
-    public Passaro(String nome, String cor, int altura, double peso, String estadoDeEspirito) {
-        this.nome = nome;
-        this.cor = cor;
-        this.altura = altura;
-        this.peso = peso;
-        this.estadoDeEspirito = estadoDeEspirito;
-        numeroDePassaros++;
     }
-    void comer(){}
-    void dormir (){}
-    void soar(){
+
+    //o Override sobrepoe a saida do metodo pai com a saida o seu propri metodo herdado pelo pai
+    @Override
+    public void soar() {
         System.out.println("PIU PIU");
     }
 }

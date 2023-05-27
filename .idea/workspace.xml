@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia.">
-      <change afterPath="$PROJECT_DIR$/src/animais/gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animais/passaro.java" afterDir="false" />
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Criando outras classes no packaege animais">
+      <change afterPath="$PROJECT_DIR$/src/animais/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animais/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animais/Passaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Passaro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2QK4T98RvLMUfZ5V1gOCtgiBJE3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685212827693</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Criando outras classes no packaege animais">
+      <created>1685213498968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685213498968</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +133,7 @@
     <MESSAGE value="Entedendo encapsulamento modf de acesso public,protected, default e private. Utilizando generate do intellij para gerar o get e set." />
     <MESSAGE value="Adicionando construtores default e mais especificos com o generate do intellij" />
     <MESSAGE value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
-    <option name="LAST_COMMIT_MESSAGE" value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
+    <MESSAGE value="Criando outras classes no packaege animais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando outras classes no packaege animais" />
   </component>
 </project>

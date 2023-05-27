@@ -1,31 +1,24 @@
 package animais;
 
-public class Gato {
-
+// colocou herança agora é classe filha
+public class Gato extends Animal {
     static int numeroDeGatos;
-    private String nome;
-    private String Cor;
-    private int altura;
-    private double peso;
-    private String estadoEspirito;
 
-
-    //CONSTRUTORES
-
-
-    public Gato(String nome, String cor, int altura, double peso, String estadoEspirito) {
-        this.nome = nome;
-        Cor = cor;
-        this.altura = altura;
-        this.peso = peso;
-        this.estadoEspirito = estadoEspirito;
-
-        numeroDeGatos++;
-    }
-    void comer(){}
-    void dormir(){}
-    void soar(){
-        System.out.println("MIAU MIAU");
+    public Gato(String nome, String cor, double peso) {
+        super(nome, cor, peso);
     }
 
+
+    @Override
+    public String toString() {
+        return "Gato{" +
+                "nome='" + nome + '\'' +
+                '}';
+    }
+
+    //o Override sobrepoe a saida do metodo pai com a saida o seu propri metodo herdado pelo pai
+    @Override
+    public void soar() {
+        System.out.println("MIUA MIAU");
+    }
 }
