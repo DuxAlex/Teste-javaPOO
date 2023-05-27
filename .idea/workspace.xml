@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Adicionando construtores default e mais especificos com o generate do intellij">
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia.">
+      <change afterPath="$PROJECT_DIR$/src/animais/gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/animais/passaro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Cachorro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685128596378</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia.">
+      <created>1685212827693</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685212827693</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,6 +120,7 @@
     <MESSAGE value="melhorando o sistema de condições com o switch." />
     <MESSAGE value="Entedendo encapsulamento modf de acesso public,protected, default e private. Utilizando generate do intellij para gerar o get e set." />
     <MESSAGE value="Adicionando construtores default e mais especificos com o generate do intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando construtores default e mais especificos com o generate do intellij" />
+    <MESSAGE value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
+    <option name="LAST_COMMIT_MESSAGE" value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
   </component>
 </project>
