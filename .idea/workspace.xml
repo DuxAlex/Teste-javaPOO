@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Entedendo encapsulamento modf de acesso public,protected, default e private. Utilizando generate do intellij para gerar o get e set.">
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Adicionando construtores default e mais especificos com o generate do intellij">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Cachorro.java" afterDir="false" />
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685126751736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adicionando construtores default e mais especificos com o generate do intellij">
+      <created>1685128596378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685128596378</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +111,7 @@
     <MESSAGE value="adicionando metodos (ações) para interação" />
     <MESSAGE value="melhorando o sistema de condições com o switch." />
     <MESSAGE value="Entedendo encapsulamento modf de acesso public,protected, default e private. Utilizando generate do intellij para gerar o get e set." />
-    <option name="LAST_COMMIT_MESSAGE" value="Entedendo encapsulamento modf de acesso public,protected, default e private. Utilizando generate do intellij para gerar o get e set." />
+    <MESSAGE value="Adicionando construtores default e mais especificos com o generate do intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando construtores default e mais especificos com o generate do intellij" />
   </component>
 </project>
