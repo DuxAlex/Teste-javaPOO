@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Criando outras classes no packaege animais">
-      <change afterPath="$PROJECT_DIR$/src/animais/Animal.java" afterDir="false" />
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar">
+      <change afterPath="$PROJECT_DIR$/src/Lojas/Petshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animais/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animais/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animais/Passaro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Passaro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685213498968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar">
+      <created>1685216116871</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685216116871</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,6 +140,7 @@
     <MESSAGE value="Adicionando construtores default e mais especificos com o generate do intellij" />
     <MESSAGE value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
     <MESSAGE value="Criando outras classes no packaege animais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando outras classes no packaege animais" />
+    <MESSAGE value="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar" />
   </component>
 </project>

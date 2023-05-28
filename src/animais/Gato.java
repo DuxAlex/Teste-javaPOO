@@ -19,6 +19,6 @@ public class Gato extends Animal {
     //o Override sobrepoe a saida do metodo pai com a saida o seu propri metodo herdado pelo pai
     @Override
     public void soar() {
-        System.out.println("MIUA MIAU");
+        System.out.println("MIAU MIAU");
     }
 }
