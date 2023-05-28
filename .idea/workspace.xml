@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar">
-      <change afterPath="$PROJECT_DIR$/src/Lojas/Petshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animais/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animais/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animais/Gato.java" afterDir="false" />
-    </list>
+    <list default="true" id="88b8e797-e560-482b-9ce4-58e18896fc55" name="Changes" comment="aprendendo sobre polimorfismo fazendo com que o objeto possa se referenciado de outras formas. acrescentamos o package loja com a classe Petshop a qua atribuimos metodos para interagir com a classe animal, suas classes filhas e seus objetos. transformamos tambem a classe Animal em uma classe abstract para retirar os valores default e fazer com que ela não referencie a si mesmo. ou seja a classe não pode se transformar em objeto. ou seja animal animal não pode." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,8 +122,26 @@
       <option name="project" value="LOCAL" />
       <updated>1685216116871</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="aprendendo sobre polimorfismo fazendo com que o objeto possa se referenciado de outras formas. acrescentamos o package loja com a classe Petshop a qua atribuimos metodos para interagir com a classe animal, suas classes filhas e seus objetos. transformamos tambem a classe Animal em uma classe abstract para retirar os valores default e fazer com que ela não referencie a si mesmo. ou seja a classe não pode se transformar em objeto. ou seja animal animal não pode.">
+      <created>1685253803790</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685253803790</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Estudando java POO, com ada usando o intelliJ" />
@@ -141,6 +153,7 @@
     <MESSAGE value="modelagem orientada a objetos acrescentando uma variavel static criando uma variavel de referencia." />
     <MESSAGE value="Criando outras classes no packaege animais" />
     <MESSAGE value="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando a classe Animal para servir de classe pai para as classes filhas que herdaram os metodos e atributos da classe pai, acrescentou o override para sobrepor o metodo e puxou os construtores da classe pai. mudou tb os acesso de privated para protecte para classe filha pode utilizar" />
+    <MESSAGE value="aprendendo sobre polimorfismo fazendo com que o objeto possa se referenciado de outras formas. acrescentamos o package loja com a classe Petshop a qua atribuimos metodos para interagir com a classe animal, suas classes filhas e seus objetos. transformamos tambem a classe Animal em uma classe abstract para retirar os valores default e fazer com que ela não referencie a si mesmo. ou seja a classe não pode se transformar em objeto. ou seja animal animal não pode." />
+    <option name="LAST_COMMIT_MESSAGE" value="aprendendo sobre polimorfismo fazendo com que o objeto possa se referenciado de outras formas. acrescentamos o package loja com a classe Petshop a qua atribuimos metodos para interagir com a classe animal, suas classes filhas e seus objetos. transformamos tambem a classe Animal em uma classe abstract para retirar os valores default e fazer com que ela não referencie a si mesmo. ou seja a classe não pode se transformar em objeto. ou seja animal animal não pode." />
   </component>
 </project>
